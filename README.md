@@ -37,8 +37,8 @@ A proper foundation ensures:
 
 ## Error
 
-"C:\Users\DAMIPE>python3 -m pip install --user ansible-core
-Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases."
+``` C:\Users\DAMIPE>python3 -m pip install --user ansible-core``
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.```
 
 ## Cause
 That error usually means your pip command is pointing to a Python installation that either no longer exists or is broken
@@ -52,4 +52,5 @@ On Windows, sometimes python3 is just an alias that points nowhere unless config
 It might be trying to launch via a broken App Execution Alias, which Windows often sets when Python is installed via the Microsoft Store.
 
 ## My Solution 
-** pip install  ansible **
+```pip install  ansible```
+
